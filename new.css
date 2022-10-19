@@ -10,5 +10,20 @@
     Ubuntu, Cantarell, "fira sans", "Droid Sans" "Helvetica Neue", sans-serif;
 }
 body {
-  background-color: var(--main-color);
+  background-color: blue;
+  overflow: hidden;
+  height: 100vh;
+  text-align: center;
+}
+.carousel-control-next-icon {
+  color: blue;
+}
+.carousel-control-next {
+  color: blue;
+}
+.sss {
+  /* background-color: gray; */
+  height: 100vh;
+  padding-top: 10%;
+  width: 70vw;
 }
