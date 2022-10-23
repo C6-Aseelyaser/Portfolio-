@@ -53,12 +53,25 @@
 
   }
   /* Home Section */
+  /* #home {
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    background: url('/WhatsApp\ Image\ 2022-10-21\ at\ 23.12.14.jpg') no-repeat center center/cover;
+    /* https://www.giftegwuenu.dev/assets/static/gift_transparent.d042d20.ee252893d96f0605601786b4ae04869c.svg */
+    /* height: 500px; */
+    /* z-index: -1; */
+    /* opacity: 0.8; */
+  /* } */ 
+
   #home {
     display: flex;
     flex-direction: column;
     background-color: blueviolet;
-    background: url('https://www.giftegwuenu.dev/assets/static/gift_transparent.d042d20.ee252893d96f0605601786b4ae04869c.svg') no-repeat center center/cover;
+    background: url(/ee3369f79097a1e4c1c95742b2483a15.jpg) no-repeat center center/cover;
+    /*'https://www.giftegwuenu.dev/assets/static/gift_transparent.d042d20.ee252893d96f0605601786b4ae04869c.svg'  */
     height: 500px;
+ 
     /* z-index: -1; */
     opacity: 0.8;
   }
@@ -109,7 +122,10 @@
   #pic img {
     width: 575px;
     height: 400px;
+border-radius: 50%;
+border-style: dotted;
   }
+  
   #intro {
     display: flex;
     justify-content: center;
@@ -251,4 +267,27 @@
       box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
       font-weight: bold;
   }
+  .nav-link1{
+    text-decoration: none;
+    color: white;
+  }
+  .nav-link1:hover{
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    color: snow;
+  }
+  #pic1 {
+    display: -webkit-box;
+
+margin-left: auto;
+  }
+  #pic1 img {
+    width: 400px;
+    height: 400px;
+border-radius: 50%;
+/* border-style: dotted; */
+  }
+  con{
+    display: inline-flex;
+  }
+  
   
